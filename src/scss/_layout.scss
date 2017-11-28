@@ -1,0 +1,30 @@
+html {
+	box-sizing:border-box; 
+}
+
+*,
+*:after,
+*:before { 
+	margin:0;
+	padding:0;
+	box-sizing: inherit;
+}
+
+body {
+	background-color:$bg-color;
+	font-size:$paragraph-font-size;
+	color: $text-color;
+	font-family:$paragraph-font-family;
+} 
+
+main#main-content {
+	margin-bottom:20px;
+}
+
+footer {
+	background-color:$bg-footer; 
+}
+
+img {
+	max-width:100%;
+}
